@@ -1,0 +1,22 @@
+State the problem
+
+Food Wastage
+I have considered a restaurant with 3 types of cuisine - North, South and Fast Food. The table shows wastage each day.
+Data is available for 30 days
+
+Assumption - Data is already clean
+
+Steps:
+1. Import libraries like numpy, pandas, matplotlib.pyplot
+
+2. Read the data using pandas
+
+3. Split the data into cuisine data in one table and the wastage in another
+
+4. Use sklearn package to split data into training and testing. I took 20% data for testing and 80% for training
+
+5. Now import the linearregression
+
+6. Create regressor and train it using our data
+
+7. Now test the regressor using test data X_test
